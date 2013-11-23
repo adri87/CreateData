@@ -1,6 +1,5 @@
 package es.data.generator;
 
-import java.util.Date;
 import java.util.List;
 
 public class Offer {
@@ -9,28 +8,22 @@ public class Offer {
 	private String id;
 	private String nameEnterprise;
 	private String locality;
-	private String summary;
 	private String description;
 	private String photoUrl;
 	private String contract;
-	private Date date;
 	private int salary;
-	private int ranking;
 	private List<Skill> skills;
 	
-	public Offer(String name, String id, String nameEnterprise, String locality, String summary, String description, String photoUrl, 
-			String contract, Date date, int salary, int ranking, List<Skill> skills){
+	public Offer(String name, String id, String nameEnterprise, String locality, String description, String photoUrl, 
+			String contract, int salary, List<Skill> skills){
 		this.name=name;
 		this.id=id;
 		this.nameEnterprise=nameEnterprise;
 		this.locality=locality;
-		this.summary=summary;
 		this.description=description;
 		this.photoUrl=photoUrl;
 		this.contract=contract;
-		this.date=date;
 		this.salary=salary;
-		this.ranking=ranking;
 		this.skills=skills;
 	}
 
@@ -65,12 +58,6 @@ public class Offer {
 		this.locality = locality;
 	}
 
-	public String getSummary() {
-		return summary;
-	}
-	public void setSummary(String summary) {
-		this.summary = summary;
-	}
 	public String getDescription() {
 		return description;
 	}
@@ -100,24 +87,8 @@ public class Offer {
 		return salary;
 	}
 	
-	public void setDate(Date date){
-		this.date=date;
-	}
-	
-	public Date getDate(){
-		return date;
-	}
-	
 	public void setSalary(int salary){
 		this.salary=salary;
-	}
-	
-	public int getRanking() {
-		return ranking;
-	}
-
-	public void setRanking(int ranking) {
-		this.ranking = ranking;
 	}
 
 	public String getContract() {

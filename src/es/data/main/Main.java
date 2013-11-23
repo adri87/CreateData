@@ -13,13 +13,14 @@ import es.data.generator.Offer;
 import es.data.generator.RdfGenerator;
 import es.data.generator.Skill;
 import es.data.generator.SkillsRDFGenerator;
+import es.data.sql.ConnectionSQL;
 
 public class Main {
 
 	/**
 	 * @param args
 	 */
-	private static boolean genPeople = true;
+	private static boolean genOffer = true;
 	private static boolean genSkills = true;
 	private static boolean genLevels = true;
 	
@@ -27,13 +28,10 @@ public class Main {
 	private static String dirOffers = "offers";
 	private static String dirSkills = "skills";
 	private static String dirLevels = "levels";
-//	private static String dirOffers = "up";
-//	private static String dirSkills = "up";
-//	private static String dirLevels = "up";
 	private static DataMahout mah;
 
 	public static void main(String[] args) {
-		if(genPeople){
+		if(genOffer){
 			deleteDir(dirOffers);
 			Generator g = new Generator();
 			List<Offer> offer = g.generateRandom(100);
@@ -48,17 +46,19 @@ public class Main {
 		if(genSkills){
 			deleteDir(dirSkills);
 			for(String s : Skill.skills){
-				writeRdf(dirSkills, s.replaceAll("\\s",""), SkillsRDFGenerator.generateSkill(s));
+				writeRdf(dirSkills, s.replaceAll("\\s","_"), SkillsRDFGenerator.generateSkill(s));
 			}
 		}
 		
 		if(genLevels){
 			deleteDir(dirLevels);
 			for(String l : Skill.levels){
-				writeRdf(dirLevels, l.replaceAll("\\s",""), SkillsRDFGenerator.generateLevel(l));
+				writeRdf(dirLevels, l.replaceAll("\\s","_"), SkillsRDFGenerator.generateLevel(l));
 			}
 		}
 		writeCsv();
+		ConnectionSQL dbCon = new ConnectionSQL();
+		dbCon.introduceRatings();
 		System.out.println("End");
 
 	}
@@ -84,8 +84,8 @@ public class Main {
 			String filenameRated = dirOutput+"/mahout/ratings.csv";
 			File fileRated = new File(filenameRated);
 			FileWriter fwr = new FileWriter(fileRated);
-			for (int i = 1; i <= 100 ; i++) {
-				int numValoraciones = (int)(Math.random()*99 + 1);
+			for (int i = 1; i <= 5 ; i++) {
+				int numValoraciones = (int)(Math.random()*10 + 1);
 				ArrayList<Integer> yaValorados = new ArrayList<>();
 				for (int j = 0; j < numValoraciones; j++) {
 					int pos = (int)(Math.random()*idsOffers.size());

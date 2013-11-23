@@ -8,36 +8,16 @@
     <foaf:Person rdf:about="http://localhost:8080/LMF-2.6.0/resource/Vacante99">
         <foaf:name>Vacante99</foaf:name>
         <foaf:id>199</foaf:id>
-        <foaf:thumbnail rdf:resource="http://static.comunicae.com/photos/notas/1021008/LOGO-ATM.jpg" />
-        <vcard:locality>Burgos</vcard:locality>
+        <foaf:thumbnail rdf:resource="http://blog.mp3.es/wp-content/uploads/2013/06/Yahoo-ids.jpg" />
+        <vcard:locality>Valladolid</vcard:locality>
         <cv:hasSkill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Scrum" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Intermediate"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Serveradministration" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Mobiledevelopement" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Socialskills" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Sparql" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Javascript" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Mobile_developement" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
 		    </cv:Skill>
 		    </cv:hasSkill>
-        <cv:cvDescription>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</cv:cvDescription>
+        <cv:cvDescription>Oferta de empleo de la empresa en la Yahoo en la que se necesitan profesionales que satisfagan una serie de habilidades tecnicas.</cv:cvDescription>
         <cv:jobTitle>Aprendizaje</cv:jobTitle>
-        <cv:targetSalary>29085</cv:targetSalary>
+        <cv:targetSalary>14600</cv:targetSalary>
     </foaf:Person>
 </rdf:RDF>

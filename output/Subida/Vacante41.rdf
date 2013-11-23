@@ -8,28 +8,16 @@
     <foaf:Person rdf:about="http://localhost:8080/LMF-2.6.0/resource/Vacante41">
         <foaf:name>Vacante41</foaf:name>
         <foaf:id>141</foaf:id>
-        <foaf:thumbnail rdf:resource="http://blog.infoempleo.com/wp-content/uploads/2010/06/logo-coritel.gif" />
-        <vcard:locality>Sevilla</vcard:locality>
+        <foaf:thumbnail rdf:resource="http://4.bp.blogspot.com/-G-ZE6Fp98-0/URxzd9uz8II/AAAAAAAAAOY/Bsy7egGmqqM/s1600/Nokia.jpg" />
+        <vcard:locality>Zaragoza</vcard:locality>
         <cv:hasSkill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/jQuery" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Signal_procesing" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/iOS" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Android" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Socialskills" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
 		    </cv:Skill>
 		    </cv:hasSkill>
-        <cv:cvDescription>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</cv:cvDescription>
-        <cv:jobTitle>Temporal</cv:jobTitle>
-        <cv:targetSalary>13562</cv:targetSalary>
+        <cv:cvDescription>Oferta de empleo de la empresa en la Nokia en la que se necesitan profesionales que satisfagan una serie de habilidades tecnicas.</cv:cvDescription>
+        <cv:jobTitle>Indefinido</cv:jobTitle>
+        <cv:targetSalary>20760</cv:targetSalary>
     </foaf:Person>
 </rdf:RDF>

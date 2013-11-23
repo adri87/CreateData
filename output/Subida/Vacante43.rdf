@@ -8,32 +8,20 @@
     <foaf:Person rdf:about="http://localhost:8080/LMF-2.6.0/resource/Vacante43">
         <foaf:name>Vacante43</foaf:name>
         <foaf:id>143</foaf:id>
-        <foaf:thumbnail rdf:resource="http://www.altran.es/fileadmin/templates/main/media/logo/logo_altran.png" />
-        <vcard:locality>Valencia</vcard:locality>
+        <foaf:thumbnail rdf:resource="http://ohmyphone.orange.es/UpImages/ohmyphone/2010/12/orange_es.jpg" />
+        <vcard:locality>Barcelona</vcard:locality>
         <cv:hasSkill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Socialskills" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Sparql" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Android" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Knockout" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
 		    </cv:Skill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Scrum" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/iOS" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Photo_editing" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
 		    </cv:Skill>
 		    </cv:hasSkill>
-        <cv:cvDescription>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</cv:cvDescription>
-        <cv:jobTitle>Temporal</cv:jobTitle>
-        <cv:targetSalary>13540</cv:targetSalary>
+        <cv:cvDescription>Oferta de empleo de la empresa en la Orange en la que se necesitan profesionales que satisfagan una serie de habilidades tecnicas.</cv:cvDescription>
+        <cv:jobTitle>En prácticas y de formación</cv:jobTitle>
+        <cv:targetSalary>34791</cv:targetSalary>
     </foaf:Person>
 </rdf:RDF>

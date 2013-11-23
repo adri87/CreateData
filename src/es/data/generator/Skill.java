@@ -27,7 +27,7 @@ public class Skill {
 	}
 	
 	public String getUid(){
-		return this.name.replaceAll("\\s","");
+		return this.name.replaceAll("\\s","_");
 	}
 	public void setName(String name) {
 		this.name = name;

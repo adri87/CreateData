@@ -8,32 +8,28 @@
     <foaf:Person rdf:about="http://localhost:8080/LMF-2.6.0/resource/Vacante28">
         <foaf:name>Vacante28</foaf:name>
         <foaf:id>128</foaf:id>
-        <foaf:thumbnail rdf:resource="http://visualescrita.files.wordpress.com/2010/11/ebay_logo.jpg" />
+        <foaf:thumbnail rdf:resource="http://phandroid.s3.amazonaws.com/wp-content/uploads/2013/04/lg-logo.jpg" />
         <vcard:locality>Madrid</vcard:locality>
         <cv:hasSkill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/iOS" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Mobile_developement" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Intermediate"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/iOS" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
 		    </cv:Skill>
 		    <cv:Skill>
 			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/HTML" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Intermediate"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Windows" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
 		    </cv:Skill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/iOS" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Knockout" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
+		    </cv:Skill>
+		    <cv:Skill>
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Software_Engineering" />
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
 		    </cv:Skill>
 		    </cv:hasSkill>
-        <cv:cvDescription>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</cv:cvDescription>
+        <cv:cvDescription>Oferta de empleo de la empresa en la LG en la que se necesitan profesionales que satisfagan una serie de habilidades tecnicas.</cv:cvDescription>
         <cv:jobTitle>Indefinido</cv:jobTitle>
-        <cv:targetSalary>34668</cv:targetSalary>
+        <cv:targetSalary>46471</cv:targetSalary>
     </foaf:Person>
 </rdf:RDF>

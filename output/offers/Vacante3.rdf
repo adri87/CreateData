@@ -8,28 +8,20 @@
     <foaf:Person rdf:about="http://localhost:8080/LMF-2.6.0/resource/Vacante3">
         <foaf:name>Vacante3</foaf:name>
         <foaf:id>103</foaf:id>
-        <foaf:thumbnail rdf:resource="http://www.es.capgemini.com/sites/all/themes/capgemini/logo.png" />
-        <vcard:locality>Sevilla</vcard:locality>
+        <foaf:thumbnail rdf:resource="http://www.tuexperto.com/wp-content/uploads/2012/12/Sony-logo.jpg" />
+        <vcard:locality>Oviedo</vcard:locality>
         <cv:hasSkill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Semantictechnologies" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Mobile_developement" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
 		    </cv:Skill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Socialskills" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Signal_procesing" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Sparql" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/PHP" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Intermediate"/>
 		    </cv:Skill>
 		    </cv:hasSkill>
-        <cv:cvDescription>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</cv:cvDescription>
+        <cv:cvDescription>Oferta de empleo de la empresa en la Sony en la que se necesitan profesionales que satisfagan una serie de habilidades tecnicas.</cv:cvDescription>
         <cv:jobTitle>Temporal</cv:jobTitle>
-        <cv:targetSalary>37984</cv:targetSalary>
+        <cv:targetSalary>35904</cv:targetSalary>
     </foaf:Person>
 </rdf:RDF>

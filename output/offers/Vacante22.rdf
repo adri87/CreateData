@@ -8,36 +8,16 @@
     <foaf:Person rdf:about="http://localhost:8080/LMF-2.6.0/resource/Vacante22">
         <foaf:name>Vacante22</foaf:name>
         <foaf:id>122</foaf:id>
-        <foaf:thumbnail rdf:resource="http://es.atos.net/etc/designs/neoweb/images/new-images/atos_logo.jpg" />
-        <vcard:locality>Sevilla</vcard:locality>
+        <foaf:thumbnail rdf:resource="http://www.skynetmi.com/wp-content/uploads/2013/09/logo-packard-bell-2009.jpg" />
+        <vcard:locality>Burgos</vcard:locality>
         <cv:hasSkill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/HTML5" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Intermediate"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Sparql" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/SoftwareEngineering" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Serveradministration" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Serveradministration" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/HTML" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Software_Engineering" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
 		    </cv:Skill>
 		    </cv:hasSkill>
-        <cv:cvDescription>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</cv:cvDescription>
-        <cv:jobTitle>En prácticas y de formación</cv:jobTitle>
-        <cv:targetSalary>27867</cv:targetSalary>
+        <cv:cvDescription>Oferta de empleo de la empresa en la Packard Bell en la que se necesitan profesionales que satisfagan una serie de habilidades tecnicas.</cv:cvDescription>
+        <cv:jobTitle>Aprendizaje</cv:jobTitle>
+        <cv:targetSalary>28101</cv:targetSalary>
     </foaf:Person>
 </rdf:RDF>

@@ -8,24 +8,16 @@
     <foaf:Person rdf:about="http://localhost:8080/LMF-2.6.0/resource/Vacante48">
         <foaf:name>Vacante48</foaf:name>
         <foaf:id>148</foaf:id>
-        <foaf:thumbnail rdf:resource="http://soyviajero.com/wp-content/uploads/2013/06/edreams-e1371230697437.jpg" />
-        <vcard:locality>San Sebastian</vcard:locality>
+        <foaf:thumbnail rdf:resource="http://www.ubuntizando.com/wp-content/uploads/2012/09/amazon-ubuntu.jpg" />
+        <vcard:locality>Caceres</vcard:locality>
         <cv:hasSkill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/PHP" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Scrum" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Server_administration" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Intermediate"/>
 		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Mobiledevelopement" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
-		    </cv:Skill>
 		    </cv:hasSkill>
-        <cv:cvDescription>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</cv:cvDescription>
+        <cv:cvDescription>Oferta de empleo de la empresa en la Amazon en la que se necesitan profesionales que satisfagan una serie de habilidades tecnicas.</cv:cvDescription>
         <cv:jobTitle>Indefinido</cv:jobTitle>
-        <cv:targetSalary>21030</cv:targetSalary>
+        <cv:targetSalary>11617</cv:targetSalary>
     </foaf:Person>
 </rdf:RDF>

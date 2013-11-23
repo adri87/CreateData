@@ -8,24 +8,24 @@
     <foaf:Person rdf:about="http://localhost:8080/LMF-2.6.0/resource/Vacante80">
         <foaf:name>Vacante80</foaf:name>
         <foaf:id>180</foaf:id>
-        <foaf:thumbnail rdf:resource="http://www.elecnor.es/support/img/logo.png" />
-        <vcard:locality>Caceres</vcard:locality>
+        <foaf:thumbnail rdf:resource="http://www.bankia.es/Ficheros/CMA/ficheros/CMP_IMG_h1_logo.PNG" />
+        <vcard:locality>Oviedo</vcard:locality>
         <cv:hasSkill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Socialskills" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Mobile_developement" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
 		    </cv:Skill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Knockout" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Linux" />
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Intermediate"/>
+		    </cv:Skill>
+		    <cv:Skill>
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/iOS" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
 		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/HTML5" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
-		    </cv:Skill>
 		    </cv:hasSkill>
-        <cv:cvDescription>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</cv:cvDescription>
-        <cv:jobTitle>Temporal</cv:jobTitle>
-        <cv:targetSalary>29519</cv:targetSalary>
+        <cv:cvDescription>Oferta de empleo de la empresa en la Bankia en la que se necesitan profesionales que satisfagan una serie de habilidades tecnicas.</cv:cvDescription>
+        <cv:jobTitle>Indefinido</cv:jobTitle>
+        <cv:targetSalary>26405</cv:targetSalary>
     </foaf:Person>
 </rdf:RDF>

@@ -8,28 +8,24 @@
     <foaf:Person rdf:about="http://localhost:8080/LMF-2.6.0/resource/Vacante67">
         <foaf:name>Vacante67</foaf:name>
         <foaf:id>167</foaf:id>
-        <foaf:thumbnail rdf:resource="http://www.saberinvertir.es/wp-content/uploads/2011/05/telef%C3%B3nica-inciar%C3%A1-un-ere-de-ac%C3%A1-a-cinco-a%C3%B1os.jpg" />
-        <vcard:locality>Burgos</vcard:locality>
+        <foaf:thumbnail rdf:resource="http://3.bp.blogspot.com/__bA2iRUgEOA/TKTFP-uR54I/AAAAAAAAAFo/MWz2-R8fHgk/s400/ackstorm_trans.jpg" />
+        <vcard:locality>Caceres</vcard:locality>
         <cv:hasSkill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Android" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Socialskills" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Socialskills" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Software_Engineering" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
 		    </cv:Skill>
 		    <cv:Skill>
 			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Android" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
+		    </cv:Skill>
+		    <cv:Skill>
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/HTML" />
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Intermediate"/>
 		    </cv:Skill>
 		    </cv:hasSkill>
-        <cv:cvDescription>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</cv:cvDescription>
-        <cv:jobTitle>En prácticas y de formación</cv:jobTitle>
-        <cv:targetSalary>39343</cv:targetSalary>
+        <cv:cvDescription>Oferta de empleo de la empresa en la ACK Storm en la que se necesitan profesionales que satisfagan una serie de habilidades tecnicas.</cv:cvDescription>
+        <cv:jobTitle>Temporal</cv:jobTitle>
+        <cv:targetSalary>13214</cv:targetSalary>
     </foaf:Person>
 </rdf:RDF>

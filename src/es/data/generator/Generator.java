@@ -1,12 +1,10 @@
 package es.data.generator;
 
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.List;
 
-import de.svenjacobs.loremipsum.LoremIpsum;
+import es.data.util.Description;
 import es.data.util.NameEnterpriseGenerator;
 
 public class Generator {
@@ -26,20 +24,17 @@ public class Generator {
 	public List<Offer> generateRandom(int number){
 		introduceImages();
 		NameEnterpriseGenerator ng = new NameEnterpriseGenerator();
-		LoremIpsum li = new LoremIpsum();
+		Description des = new Description();
 		for (int i=1; i<=number;i++){	
 			String name = "Vacante"+i;
 			String id = String.valueOf(100+i);
 			String nameEnterprise = ng.getRandomNameCompanie();
 			String citie = cities[random(0,cities.length-1)];
-			String summary = li.getWords(20);
-			String description = li.getWords(60);
+			String description = des.getDescritption(nameEnterprise);
 			String photoUrl = images.get(nameEnterprise);
 			String typeContract = contract[random(0,contract.length-1)];
 			List<Skill> skills = new ArrayList<Skill>();
-			Date date = generateDate();
 			int salary = random(10000, 40000);
-			int ranking = random(0,100);	
 			int numSkills = random(1,5);
 			
 			for(int j = 0; j<numSkills; j++){
@@ -48,8 +43,8 @@ public class Generator {
 				skills.add(new Skill(skillName, skillLevel));
 				
 			}
-			offer.add(new Offer(name, id, nameEnterprise, citie, summary, description, photoUrl, 
-					typeContract, date, salary, ranking, skills));	
+			offer.add(new Offer(name, id, nameEnterprise, citie, description, photoUrl, 
+					typeContract, salary, skills));	
 		}
 		return offer;
 	}
@@ -121,24 +116,6 @@ public class Generator {
 		images.put("Verizon", "http://www.verizon.com/cs/groups/public/documents/adacct/logo_landing.png");
 	}
 	
-	/**
-	 * @return
-	 */
-    @SuppressWarnings("static-access")
-	private Date generateDate(){
-		GregorianCalendar gc = new GregorianCalendar();
-		int maxDay = gc.get(gc.DAY_OF_MONTH);
-		int actualMonth = gc.get(gc.MONTH);
-		int month = random(actualMonth-1, actualMonth);
-		gc.set(gc.MONTH, month);
-		if (month != actualMonth)
-			maxDay = gc.getActualMaximum(gc.DAY_OF_MONTH);
-		int dayOfMonth = random(1, maxDay);
-		gc.set(gc.get(gc.YEAR), month, dayOfMonth);
-		return gc.getTime();
-	}
-	
-
 	public static int random(int min, int max){
 		return (min + (int)(Math.random()*(max+1)));
 	}

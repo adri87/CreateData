@@ -8,32 +8,32 @@
     <foaf:Person rdf:about="http://localhost:8080/LMF-2.6.0/resource/Vacante75">
         <foaf:name>Vacante75</foaf:name>
         <foaf:id>175</foaf:id>
-        <foaf:thumbnail rdf:resource="http://www.vodafone.es/static/img/header_logo.png" />
-        <vcard:locality>Madrid</vcard:locality>
+        <foaf:thumbnail rdf:resource="http://www.pwc.es/en_GX/webadmin/assets/image/pwclogo.gif" />
+        <vcard:locality>Caceres</vcard:locality>
         <cv:hasSkill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/HTML5" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/iOS" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Intermediate"/>
-		    </cv:Skill>
-		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Knockout" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/jQuery" />
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
 		    </cv:Skill>
 		    <cv:Skill>
 			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Scrum" />
-		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
 		    </cv:Skill>
 		    <cv:Skill>
 			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Sparql" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
 		    </cv:Skill>
+		    <cv:Skill>
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Video_rendering" />
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
+		    </cv:Skill>
+		    <cv:Skill>
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Software_Engineering" />
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
+		    </cv:Skill>
 		    </cv:hasSkill>
-        <cv:cvDescription>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</cv:cvDescription>
-        <cv:jobTitle>De relevo</cv:jobTitle>
-        <cv:targetSalary>24816</cv:targetSalary>
+        <cv:cvDescription>Oferta de empleo de la empresa en la PWC en la que se necesitan profesionales que satisfagan una serie de habilidades tecnicas.</cv:cvDescription>
+        <cv:jobTitle>En prácticas y de formación</cv:jobTitle>
+        <cv:targetSalary>36579</cv:targetSalary>
     </foaf:Person>
 </rdf:RDF>

@@ -8,16 +8,36 @@
     <foaf:Person rdf:about="http://localhost:8080/LMF-2.6.0/resource/Vacante18">
         <foaf:name>Vacante18</foaf:name>
         <foaf:id>118</foaf:id>
-        <foaf:thumbnail rdf:resource="https://www.bancosantander.es/CsApps/GrupoSantander/Internet/SantanderComercial/img/logo_SAN.gif" />
-        <vcard:locality>Madrid</vcard:locality>
+        <foaf:thumbnail rdf:resource="http://www.iecisa.com/iecisa/images/img/informatica_el_corte_ingles_logo.png" />
+        <vcard:locality>Oviedo</vcard:locality>
         <cv:hasSkill>
 		    <cv:Skill>
-			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Videorendering" />
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Java" />
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
+		    </cv:Skill>
+		    <cv:Skill>
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Javascript" />
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
+		    </cv:Skill>
+		    <cv:Skill>
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/jQuery" />
 		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
 		    </cv:Skill>
+		    <cv:Skill>
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Windows" />
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Expert"/>
+		    </cv:Skill>
+		    <cv:Skill>
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Video_rendering" />
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Beginner"/>
+		    </cv:Skill>
+		    <cv:Skill>
+			    <cv:skillName rdf:resource="http://localhost:8080/LMF-2.6.0/resource/skills/Android" />
+		            <cv:skillLevel rdf:resource="http://localhost:8080/LMF-2.6.0/resource/levels/Intermediate"/>
+		    </cv:Skill>
 		    </cv:hasSkill>
-        <cv:cvDescription>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</cv:cvDescription>
+        <cv:cvDescription>Oferta de empleo de la empresa en la Ieci Informatica El Corte Ingles en la que se necesitan profesionales que satisfagan una serie de habilidades tecnicas.</cv:cvDescription>
         <cv:jobTitle>Aprendizaje</cv:jobTitle>
-        <cv:targetSalary>44944</cv:targetSalary>
+        <cv:targetSalary>43869</cv:targetSalary>
     </foaf:Person>
 </rdf:RDF>
